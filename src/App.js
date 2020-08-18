@@ -1,6 +1,7 @@
 import React from 'react'
 import PrimarySearchAppBar from "./components/navbar/Navigation";
 import TeamCard from "./components/card/TeamCard";
+import DashboardCard from "./components/card/DashboardCard";
 
 function App () {
   return (
@@ -8,6 +9,7 @@ function App () {
         <PrimarySearchAppBar/>
         <br/>
         <TeamCard/>
+        <DashboardCard/>
       </div>
 
 
