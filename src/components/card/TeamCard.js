@@ -16,6 +16,10 @@ const useStyles = makeStyles({
     media: {
         height: 140,
     },
+    enterButton: {
+        width: '100%',
+
+    }
 });
 
 export default function TeamCard() {
@@ -40,7 +44,7 @@ export default function TeamCard() {
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                <Button size="small" color="primary">
+                <Button className={classes.enterButton} size="small" color="primary">
                     Enter
                 </Button>
             </CardActions>
